@@ -1,0 +1,6 @@
+version: '3.5'
+
+services:
+  consolation-api-app:
+    image: ${CONTAINER_BUILD_IMAGE}
+    build: .
